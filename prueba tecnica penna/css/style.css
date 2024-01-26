@@ -1,0 +1,52 @@
+.imgSize{
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .card-form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .ma{
+    margin: 2px;
+  }
+ 
+.carrusel {
+    
+    display: flex;
+    overflow: hidden;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.center-image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.small-image:hover {
+    cursor: pointer;
+}
+.bgImg{
+    background-color: black;
+}
